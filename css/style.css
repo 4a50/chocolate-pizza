@@ -1,0 +1,124 @@
+h2{  
+font-family: 'Viga', sans-serif;
+font-size: 28px;
+}
+h3 {
+  font-family: 'Inconsolata', monospace;
+  font-size: 12px;
+  word-spacing: -4px;
+}
+h5 {
+  font-family: 'Pacifico', cursive;
+  font-style: italic;
+  font-size: x-large;
+}
+h6 { 
+  font-family: 'Inconsolata', monospace;
+  word-spacing: -4px;
+  font-size: 11px;
+}
+
+body {
+  /* width: 2000; */
+  /* display: flex; */
+  
+  padding: 20px;
+}
+main {width: 720px;
+      padding: 30px;}
+header {
+  
+  display: flex;
+  width: 1080px;
+  justify-content: space-between;
+}
+#logoContainer{
+  display: flex;
+  justify-content: left;
+
+}
+
+header img {
+ 
+}
+#sloganlogo {
+  
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;  
+  padding-top: 5px;
+  padding-left: 12px;
+}
+/* #sloganlogo h5{
+    order: 1;
+  }
+}
+#sloganlogo h6{
+  order: 1;
+} */
+#socialmedialogos{
+  /* display: inline-block; */
+  float:right;
+}
+
+#socialmedialogos section {
+  display: inline-block;
+}
+#socialmedalist{
+  padding: 10px 10px 0px 0px;
+}
+#rssMail {
+  border: 1px solid indianred;
+  padding: 10px 0px 0px 0px;
+}
+#lowerbar {
+  /* display: flex; */
+  width: 1080px;
+  /* align-items: stretch; */
+  /* border: 11px solid purple; */
+  /* height: 20px; */
+  background-image: url("../img/logo.png");
+  background-repeat: repeat;
+}
+/* TODO: ADJUST ATTRIBUTES */
+hr {  
+  /* width: 1080px; */
+  height: 10px;  
+}
+#mainTitles{
+  display: flex;
+  justify-content: space-between;
+  
+}
+#printIcon h3{
+  display: inline-block;
+
+}
+#chocopizza {
+  display: flex;
+  justify-content: center;
+  /* width: 1080px; */
+  padding: 20px 0px;
+}
+  #description{
+    display: flex;    
+    
+    
+  }
+#paraWords {
+
+}
+#paraWords p{
+  text-indent: 15px;
+  padding: 5px 0px;
+  
+}
+
+#checklist {
+
+}
+
+#checklist img {
+  width: 720px;
+}
